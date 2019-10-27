@@ -6,11 +6,7 @@ function getTrainInfo(cb) {
 //local forage set function 
 function setTrainInfo(newTrainInfo, cb) {
     localforage.setItem("trainSchedules", newTrainInfo).then(cb);
-};
-
-
-
-
+}
 
 //on click function to store value of user input to local storage
 document
@@ -30,7 +26,7 @@ document
             destination: destination,
             firstTrain: firstTrain,
             frequency: frequency
-        }
+        };
 
         console.log(trainData);
 
@@ -42,8 +38,8 @@ document
 
             setTrainInfo(newArray, function () {
                 console.log(newArray);
-            })
-        })
+            });
+        });
     });
 
 
@@ -105,4 +101,4 @@ window.setInterval(function(){
         updateDisplay(result);
         console.log(result);
     });
-},1000)
+},1000);
