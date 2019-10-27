@@ -6,4 +6,4 @@ Also using jquery, popper, bootstrap technologies.
 
 Github Pages: https://bryanmobrien.github.io/train-time/
 
-!(./train-time.png)
+![Train Time](./train-time.png)
