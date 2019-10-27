@@ -42,9 +42,6 @@ document
         });
     });
 
-
-
-
 //function to populate the table 
 function updateDisplay(result) {
     console.log(result);
@@ -56,11 +53,7 @@ function updateDisplay(result) {
     //for loop to loop throught the new array
     for (let i = 0; i < result.length; i++) {
         
-
-        
         let tFrequency = result[i].frequency;
-
-      
         let firstTime = result[i].firstTrain;
 
         // First Time 

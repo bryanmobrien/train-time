@@ -1,3 +1,1 @@
-# train-time
-
-https://benescorcia.github.io/train-time/# train-time
+Github Pages: https://bryanmobrien.github.io/train-time/
